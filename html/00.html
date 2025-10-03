@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>HTML cơ bản</title>
   </head>
   <body>
     <h1>Welcome</h1>
@@ -17,6 +17,27 @@
         ><u><b>combo luôn</b></u></i
       >
     </p>
+    <hr />
+    <h2>Thẻ pre</h2>
+    <pre>
+      cái cò cái vạc cái nông
+      ba cái cùng béo vặt lông cái nào
+    </pre>
+    <hr />
+    <h2>thẻ code</h2>
+    <pre>
+      <code>
+        &lt;html&gt;
+          &lt;head&gt;
+            &lt;title&gt;đây là tiêu đề trang&lt;/title&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+            &lt;h1&gt;đây là tiêu đề lớn&lt;/h1&gt;
+            &lt;p&gt;đây là đoạn văn bản&lt;/p&gt;
+          &lt;/body&gt;
+        &lt;/html&gt;
+      </code>
+    </pre>
     <hr />
     <h2>Danh sách</h2>
     <h3>Danh sách có thứ tự (ordered list)</h3>
@@ -69,5 +90,37 @@
     <img src="../img/hime.jpg" alt="ayaya" width="100" />
     <hr />
     <h2>Bảng (table)</h2>
+    <p></p>
+    <table border="1" cellpadding="10" cellspacing="01">
+      <thead>
+        <tr>
+          <th>Tên sản phẩm</th>
+          <th colspan="2">Mô tả</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Áo phông</td>
+          <td>Chất liệu</td>
+          <td>Vải</td>
+        </tr>
+        <tr>
+          <td>Giá</td>
+          <td>2 lít</td>
+        </tr>
+        <tr>
+          <td>Quần bòa</td>
+          <td colspan="2">hot trend toptop giá 5 lốp</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3" style="text-align: center">
+            Lụm nhanh kẻo hết đó nha &lt3
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+    <hr />
   </body>
 </html>
